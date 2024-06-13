@@ -3,7 +3,7 @@ This dataset was taken from Kaggle; I searched for supervised learning and this 
 
 
 # Cleaning
-It is a relatively clean dataset, with no missing values, but I did make a modification to one column. The column diameter was originally listed as string values - 22 inch, 18 inch etc. I changed the feature name to diameter_in and reformatted the column to just be integers (22, 18 etc).
+It is a relatively clean dataset, with no missing values, but I did make a modification to one column. The column diameter was originally listed as string values - 22 inch, 18 inch etc. I changed the feature name to diameter_in and reformatted the column to just be integers (22, 18 etc). There was also a type in the spelling of black papper & papperoni that I corrcted. 
 
 # Objective of analysis
 I want to predict the Company that makes the pizza based on the features. From the initial glance, I would say that the most important features to include in the model are 

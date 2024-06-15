@@ -20,3 +20,10 @@ I want to predict the Company that makes the pizza based on the features. From t
 4. price 
 
 Perhaps the diameter is relevant, but the values seem to be equally represented across all companies. I don't think the extra sauce, cheese, or mushrooms will be included because that's something commonly offered at most companies.  
+
+# Results
+After many hours of frustration and thankfully some guidance from the professor, I was able to complete the machine learning model. Overall, I think there were some redundancies in the code, but being so new to this subject, I did not want to remove anything for fear of breaking the code. 
+
+It looks like logistic regression had stronger accuracy than k-nearest neighbor. The best performing k was #8 (0.454), and the worst performing was #23 (0.484). Now why does the worst performing k perform better than the best, I have no idea. 
+In logistic regression, the best performing has a prediction of 0.51.
+

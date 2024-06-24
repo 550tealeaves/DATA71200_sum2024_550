@@ -1,0 +1,1 @@
+After loading and splitting the data, I used a one hot encoder to separate the categorical variables based on their values. 

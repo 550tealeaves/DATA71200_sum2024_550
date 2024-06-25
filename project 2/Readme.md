@@ -1,1 +1,2 @@
 After loading and splitting the data, I used a one hot encoder to separate the categorical variables based on their values. 
+Because the target variable (company) is categorical, I created a bar chart instead of histogram to show the frequencies. Companies C & E appear to be tied with the highest frequency, while D has the least.

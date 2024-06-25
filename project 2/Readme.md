@@ -12,7 +12,7 @@ The second model utilized the Random Forest. The default model says that it can 
 
 When I tripled the estimators to 15, the training set accuracy increased slightly, to 84%, while there was no change to the test set accuracy. Plotting these important features shows that extra mushrooms and size regular were the most important features to this decision making. 
 
-In the third version, I increased the estimators to 20, it, there was no change to training set accuracy, but test set accuracy decreased to 39%. For feature importance, extra mushrooms, price in Canadian dollars, and regular size were the most important features to decision making. 
+In the third version, I increased the estimators to 20, it, there was no change to training set accuracy, but test set accuracy decreased to 39%. For feature importance, extra mushrooms, price in Canadian dollars, and regular size were the most important features to decision making. Precision, recall, and F1 generally decreased as the number of estimators increased. 
 
 
 ## What went well and what requires improvement
@@ -23,4 +23,3 @@ In the third version, I increased the estimators to 20, it, there was no change 
 *Work in progress*
 - Interpretation of the cross validation for the Random Forest - not sure if I coded it properly
 - Not sure if I got the best and worst parameters for Random Forest, probably could have used an alternative method, like Support Vector Machines
-  

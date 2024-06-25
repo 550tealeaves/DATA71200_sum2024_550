@@ -23,4 +23,5 @@ In the third version, I increased the estimators to 20, it, there was no change 
 *Work in progress*
 - Interpretation of the cross validation for the Random Forest - not sure if I coded it properly
 - Not sure if I got the best and worst parameters for Random Forest, probably could have used an alternative method, like Support Vector Machines
+- Was unsure if the logistic regression was necessary to keep for k nearest neighbor - I kept it but it may not have mattered. 
 - Feature scaling - received an invalid syntax. Gemini converted it into a something that only accepted numbers and promised their world. 

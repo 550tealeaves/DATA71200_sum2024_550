@@ -18,4 +18,7 @@ In the unscaled, we see that only the two variables, "price_cad" and "company" h
 In the scaled data, the accuracy dropped to 0.29 for training set and 0.24 for test set.
 
 ## 95% Variance
-The unscaled data makes it harder to distinguish between positive and negatives for the features. Most of the visualization has a teal color that ranges from 0.1 to -0.1. The scaled data makes this distinction much clearer. While overall, teal is probably the most common in the visualization, it is much easier to see the positive and negatives 
+The unscaled data makes it harder to distinguish between positive and negatives for the features. Most of the visualization has a teal color that ranges from 0.1 to -0.1. The scaled data makes this distinction much clearer. While overall, teal is probably the most common in the visualization, it is much easier to see the positive and negatives.
+
+## NVF
+NVF can identify the original components of the combined data and its useful when the data is positive. We see in the visualizations that most of the features are very close to 0. In the scaled, "vegetables" & "pepperoni" have the highest positive value. 

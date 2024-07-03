@@ -15,4 +15,7 @@ We then ran a test using SVM, which, according to the textbook, learns the impor
 
 ## PCA ON UNSCALED VS SCALED DATA
 In the unscaled, we see that only the two variables, "price_cad" and "company" have a positive signs in the first component. In the second component, price_cad has a negative value, compared to the positive value of "company". All other features hover around 0. The accuracy for training set is 0.42 and 0.30 in test set.  
-In the scaled data, 
+In the scaled data, the accuracy dropped to 0.29 for training set and 0.24 for test set.
+
+## 95% Variance
+The unscaled data makes it harder to distinguish between positive and negatives for the features. Most of the visualization has a teal color that ranges from 0.1 to -0.1. The scaled data makes this distinction much clearer. While overall, teal is probably the most common in the visualization, it is much easier to see the positive and negatives 

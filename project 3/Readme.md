@@ -22,3 +22,23 @@ The unscaled data makes it harder to distinguish between positive and negatives 
 
 ## NVF
 NVF can identify the original components of the combined data and its useful when the data is positive. We see in the visualizations that most of the features are very close to 0. In the scaled, "vegetables" & "pepperoni" have the highest positive value. 
+
+## k -Means
+When running on original data, we see that clusters 1 and 2 overlap quite a bit and cluster 0 is in the upper right quadrant. The elbow graph shows that the optimal number of clusters is 5. After running on the PCA data, the clusters are better grouped and there is minimal overlap between the 3 clusters. The elbow visualization again shows that 5 may be indeed be the optimal number of clusters. 
+
+
+## Agglomerate/Hierarchical
+On the original, unscaled data, we see that there is some overlap between groups 0 & 2. Cluster 1 remains reticent.
+After PCA, this algorithm helps better group the features when they are down there. 
+
+## DBSCAN
+For original data, we see there is a lot of overlap, much like with the Agglomerate
+For post PCA, we see that cluster 0 has unilaterally taken over. Other clusters are fizzled. 
+
+## ARI & Silhouette Coefficients
+The plots for the k-means, agglomerate, and DBSCAN show are each similar in shape and spread but different colors within the graphs stand out for each of the algorithms. None of the data are in the similar shape as the example in class.
+
+## Reflection
+While running the code was far easier than with the past 2 projects, I was definitely confused as to what the outputs meant. The visualizations, in particular, were tricky to interpret because they did not resemble much of the classroom examples. I do wonder if this dataset properly leant itself to this kind of analysis. 
+
+
